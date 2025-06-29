@@ -1,5 +1,6 @@
 import About from "@/components/aboutSection/About";
 import Banner from "@/components/banner/Banner";
+import Contact from "@/components/contactSection/Contact";
 import MyWork from "@/components/myWorkSection/MyWork";
 import SkillSection from "@/components/skillSection/SkillSection";
 
@@ -12,6 +13,7 @@ export default function Home() {
         <SkillSection />
         <About />
         <MyWork/>
+        <Contact/>
       </main>
     </div>
   );
