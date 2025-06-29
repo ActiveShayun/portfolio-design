@@ -1,18 +1,14 @@
-import { FaArrowDownLong, FaArrowLeftLong, FaArrowRightLong } from 'react-icons/fa6';
+import {  FaArrowLeftLong, FaArrowRightLong } from 'react-icons/fa6';
 import SkillCard from '../shared/skillCard/SkillCard';
+import Title from '../shared/subtitle/Title';
 
 
 
 const SkillSection = () => {
     return (
-        <div className='bg-black p-10 rounded-lg text-white '>
+        <div className='bg-black lg:px-12 py-10 rounded-lg text-white '>
             <div>
-                <div className='flex items-center text-white'>
-                    <span >
-                        <FaArrowDownLong
-                            className='w-[44px] h-[44px] rounded-full border-2 p-2' /></span>
-                    <button className='py-2 px-3 rounded-full border-2'>Why Choose me</button>
-                </div>
+              <Title text={'Why Choose me'}/>
             </div>
             {/* title & description */}
             <div className='lg:flex justify-between items-center'>
@@ -36,7 +32,7 @@ const SkillSection = () => {
                         className='w-[44px] h-[44px] rounded-full border-2 p-2' />
                 </div>
                 {/* cards */}
-                <div className='lg:flex items-center justify-center  gap-4'>
+                <div className='lg:flex items-center justify-center  gap-4 lg:px-12'>
                     <div className='lg:w-[430px] lg:h-[300px]'>
                         <SkillCard cardTitle={'HTML & CSS'} /></div>
                     <div className='lg:rotate-4 lg:w-[430px] lg:h-[300px]'>

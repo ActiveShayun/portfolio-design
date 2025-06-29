@@ -4,7 +4,7 @@ import DemoBtn from './demobtn/DemoBtn';
 
 const About = () => {
     return (
-        <div className='rounded-lg relative h-[500px]'>
+        <div className='rounded-lg relative'>
             <div>
                 <div className='lg:pt-36 py-12 lg:px-12 px-4'>
                     <div >
@@ -33,12 +33,12 @@ const About = () => {
                     </div>
                 </div>
             </div>
-
+            {/* rotate button section */}
             <div className='px-4 lg:px-0'>
                 <div className='grid grid-cols-1 lg:grid-cols-11 lg:mt-16 '>
                     {/* PREVIOUSLY WORKED ON */}
-                    <div className='col-span-3 lg:pl-14 mb-4'>
-                        <h5 className='text-2xl font-bold'>
+                    <div className='col-span-3 mb-4 lg:pl-10'>
+                        <h5 className='text-2xl font-bold text-left'>
                             PREVIOUSLY <br /> WORKED ON</h5>
                     </div>
                     <div className='col-span-8'>

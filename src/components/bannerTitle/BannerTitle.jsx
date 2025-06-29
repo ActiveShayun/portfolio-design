@@ -4,7 +4,7 @@ import React from 'react';
 const BannerTitle = () => {
     return (
         <div>
-            <div className='px-4'>
+            <div className='px-4 lg:px-0'>
                 <h2 className='lg:text-7xl text-black text-5xl font-bold lg:mb-6 text-left'>Trusted
                     <span className='bg-black text-white rounded-xl ml-2 px-2 inline-block pb-2'>
                         Partner</span> for </h2>

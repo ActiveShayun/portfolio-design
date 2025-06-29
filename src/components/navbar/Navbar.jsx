@@ -34,7 +34,7 @@ const Navbar = () => {
                         {deskTopMenu}
                     </ul>
                 </div>
-                <div className="navbar-end">
+                <div className="navbar-end hidden lg:block">
                     <ButtonNav text={'Start Project'}/>
                 </div>
             </div>

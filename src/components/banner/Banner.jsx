@@ -6,7 +6,7 @@ import BannerTitle from '../bannerTitle/BannerTitle';
 
 const Banner = () => {
     return (
-        <div className='lg:px-9 lg:py-[135px] py-12 relative lg:mt-0  bg-gradient-to-bl from-sky-100 via-lime-300 to-white opacity-80 
+        <div className='lg:px-12 lg:py-[135px] py-12 relative lg:mt-0  bg-gradient-to-bl from-sky-100 via-lime-300 to-white opacity-80 
         rounded-lg lg:h-screen w-full'>
             <div>
                 <BannerTitle />
