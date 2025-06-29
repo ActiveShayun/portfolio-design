@@ -8,7 +8,7 @@ Follow the steps below to get started:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/ActiveShayun/portfolio-design.git
 
 # 2. Go into the project directory
 cd your-repo-name
