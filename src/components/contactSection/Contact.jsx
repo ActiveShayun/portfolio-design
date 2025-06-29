@@ -5,8 +5,9 @@ import Title from '../shared/subtitle/Title';
 
 const Contact = () => {
     return (
-        <div className='lg:py-16 px-4 lg:px-12 py-8  grid lg:grid-cols-5 grid-cols-1 justify-between bg-gradient-to-bl from-[#caff0f] to-white'>
-            <div className='col-span-3'>
+        <div className='lg:py-16 px-4 lg:px-12 pt-10 pb-14  grid lg:grid-cols-5 grid-cols-1 justify-between bg-gradient-to-bl from-[#caff0f] to-white'>
+            <div data-aos="fade-right"
+                className='col-span-3'>
                 <div>
                     <Title color={true} text={'Contact'} />
                 </div>
@@ -28,7 +29,8 @@ const Contact = () => {
             </div>
 
             {/* form section */}
-            <div className='w-full col-span-2'>
+            <div  data-aos="fade-left"
+             className='w-full col-span-2'>
                 <Form />
             </div>
         </div >

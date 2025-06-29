@@ -1,11 +1,17 @@
 'use client'
-import React from 'react';
 
 const BannerTitle = () => {
+
+
+
     return (
         <div>
-            <div className='px-4 lg:px-0'>
-                <h2 className='lg:text-7xl text-black text-5xl font-bold lg:mb-6 text-left'>Trusted
+            <div data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+                className='px-4 lg:px-0 '>
+                <h2
+                    className='lg:text-7xl text-black text-5xl font-bold lg:mb-6 text-left'>Trusted
                     <span className='bg-black text-white rounded-xl ml-2 px-2 inline-block pb-2'>
                         Partner</span> for </h2>
                 <h2 className='text-5xl text-black lg:text-7xl font-bold'>

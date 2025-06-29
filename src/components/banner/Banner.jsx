@@ -15,8 +15,10 @@ const Banner = () => {
             <div className='mt-8'>
                 <div>
                     <div className='-rotate-90  w-[200px] -left-15 absolute  lg:-left-8'>
-                        <p className='text-lg font-medium mb-3'>@williamrey</p>
-                        <div className='flex  items-center gap-3'>
+                        <p data-aos="fade-right"
+                            className='text-lg font-medium mb-3'>@williamrey</p>
+                        <div data-aos="fade-left"
+                            className='flex  items-center gap-3'>
                             <div className='w-[50px] border-b'></div>
                             <div className='flex  items-center'>
                                 <span >

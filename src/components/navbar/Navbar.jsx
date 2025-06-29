@@ -26,7 +26,8 @@ const Navbar = () => {
                         {deskTopMenu}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-3xl font-bold uppercase">devlop.me</a>
+                <a data-aos="fade-right"
+                    className="btn btn-ghost text-3xl font-bold uppercase">devlop.me</a>
             </div>
             <div className='flex items-center gap-12'>
                 <div className="navbar-center hidden lg:flex ">
@@ -34,8 +35,8 @@ const Navbar = () => {
                         {deskTopMenu}
                     </ul>
                 </div>
-                <div className="navbar-end hidden lg:block">
-                    <ButtonNav text={'Start Project'}/>
+                <div data-aos="fade-left" className="navbar-end hidden lg:block">
+                    <ButtonNav text={'Start Project'} />
                 </div>
             </div>
         </div>

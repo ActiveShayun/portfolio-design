@@ -3,6 +3,7 @@ import Banner from "@/components/banner/Banner";
 import Contact from "@/components/contactSection/Contact";
 import MyWork from "@/components/myWorkSection/MyWork";
 import SkillSection from "@/components/skillSection/SkillSection";
+import Loader from "./loading/page";
 
 
 export default function Home() {
@@ -12,8 +13,8 @@ export default function Home() {
         <Banner />
         <SkillSection />
         <About />
-        <MyWork/>
-        <Contact/>
+        <MyWork />
+        <Contact />
       </main>
     </div>
   );

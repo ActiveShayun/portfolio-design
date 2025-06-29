@@ -4,18 +4,20 @@ import DemoBtn from './demobtn/DemoBtn';
 
 const About = () => {
     return (
-        <div className='rounded-lg relative'>
+        <div className='rounded-lg relative '>
             <div>
-                <div className='lg:pt-36 py-12 lg:px-12 px-4'>
-                    <div >
-                        <div className='flex gap-2 items-center justify-end text-black'>
+                <div className='lg:pt-36 py-12 lg:px-12 px-4 bg-gradient-to-bl from-sky-100 via-lime-300 rounded-lg'>
+                    <div className=''>
+                        <div data-aos="fade-left"
+                        className='flex gap-2 items-center justify-end text-black'>
                             <span >
-                                <FaArrowDownLong
+                                <FaArrowDownLong 
                                     className='w-[44px] h-[44px] rounded-full border-2 p-2' /></span>
-                            <button className='py-2 px-4 w-[120px] rounded-full border-2'> About</button>
+                            <button 
+                            className='py-2 px-4 w-[120px] rounded-full border-2'> About</button>
                         </div>
                         {/* title */}
-                        <div>
+                        <div data-aos="zoom-in">
                             <h3 className='lg:text-7xl text-black text-5xl font-bold lg:text-center text-left mt-8'>
                                 I’ve been
                                 <span className='bg-black text-white rounded-xl lg:ml-2 px-2 inline-block pb-2 my-2 lg:my-0 lg:mb-4'>
@@ -25,7 +27,7 @@ const About = () => {
                                     2013</span></h3>
                         </div>
                     </div>
-                    <div>
+                    <div data-aos="zoom-in">
                         <p className='lg:text-center text-left lg:w-3/6 mx-auto mt-4'>
                             We start every new client interaction with an in-depth discovery call where
                             we get to know each other and recommend the best course of

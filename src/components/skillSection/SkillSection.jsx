@@ -1,4 +1,4 @@
-import {  FaArrowLeftLong, FaArrowRightLong } from 'react-icons/fa6';
+import { FaArrowLeftLong, FaArrowRightLong } from 'react-icons/fa6';
 import SkillCard from '../shared/skillCard/SkillCard';
 import Title from '../shared/subtitle/Title';
 
@@ -6,12 +6,14 @@ import Title from '../shared/subtitle/Title';
 
 const SkillSection = () => {
     return (
-        <div className='bg-black lg:px-12 py-10 rounded-lg text-white '>
-            <div>
-              <Title text={'Why Choose me'}/>
+        <div className='bg-black lg:px-12 px-4 py-10 rounded-lg text-white '>
+            <div data-aos="fade-right">
+                <Title text={'Why Choose me'} />
             </div>
             {/* title & description */}
-            <div className='lg:flex justify-between items-center'>
+            <div data-aos="fade-up"
+                data-aos-anchor-placement="center-center"
+                className='lg:flex justify-between items-center'>
                 <div>
                     <h3 className='lg:text-6xl text-5xl font-bold leading-20'>My Extensive
                         <span className='block'>List of Skills</span></h3>
@@ -25,10 +27,11 @@ const SkillSection = () => {
             </div>
             {/* skill card section */}
             <div>
-                <div className='flex items-center gap-3 justify-end my-6'>
-                    <FaArrowLeftLong
+                <div
+                    className='flex items-center gap-3 justify-end my-6'>
+                    <FaArrowLeftLong data-aos="fade-right"
                         className='w-[44px] h-[44px] rounded-full border-2 p-2' />
-                    <FaArrowRightLong
+                    <FaArrowRightLong data-aos="fade-left"
                         className='w-[44px] h-[44px] rounded-full border-2 p-2' />
                 </div>
                 {/* cards */}

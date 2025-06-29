@@ -1,9 +1,13 @@
+'use client'
 import React from 'react';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 const Cards = ({ btnText, description, bg, colors }) => {
     return (
-        <div className={`${bg ? 'bg-[#c5ff41] text-black lg:rotate-5' : 'bg-black'} p-6 rounded-lg h-50 flex flex-col justify-between`}>
+        <div data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+            className={`${bg ? 'bg-[#c5ff41] text-black lg:rotate-5' : 'bg-black'} p-6 rounded-lg h-50 flex flex-col justify-between`}>
             <div>
                 <div className='flex justify-between items-center gap-2 mb-3'>
                     <button className={`${colors ? 'bg-black another text-white' :

@@ -1,9 +1,10 @@
 import React from 'react';
 import { FaReact } from 'react-icons/fa';
 
-const SkillCard = ({ cardTitle}) => {
+const SkillCard = ({ cardTitle }) => {
     return (
-        <div className={`lg:w-[400px] lg:h-[300px] w-full text-white flex flex-col justify-evenly 
+        <div data-aos="zoom-in"
+            className={`lg:w-[400px] lg:h-[300px] w-full text-white flex flex-col justify-evenly 
         bg-[#FFFFFF14] rounded-lg p-4 mb-4 lg:mb-0 
    `}>
             <div>
