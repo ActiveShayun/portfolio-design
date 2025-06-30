@@ -7,6 +7,7 @@ const AsoWrapper = ({ children }) => {
     useEffect(() => {
         AOS.init({
             duration: 2000,
+            once: true
         })
     }, [])
     return (
